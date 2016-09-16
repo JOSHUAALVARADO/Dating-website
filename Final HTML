@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+
+    article, aside, figure, footer, header, hgroup,
+
+    menu, nav, section { display: block; }
+
+</style>
+
+    <meta charset="UTF-8">
+    <title>Please Enter Your Details For Our Dating Website </title>
+
+    <style type="text/css">
+    fieldset{
+        background-color: lightyellow;
+        border: 10px solid yellow;
+        margin-bottom: 10px;
+        width: 720px;
+    }
+    label{
+        width:180px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+
+
+
+
+    }
+    input:hover{
+        font-size:40px;
+    }
+    label:hover{
+        font-size:40px;
+    }
+    .radio {
+        width:auto;
+    }
+    textarea {
+        width: 360px;
+        height:50px;
+    }
+        .range {
+            text-align:left;
+            width: 180px;
+        }
+
+
+    </style>
+
+
+</head>
+<script>
+
+</script>
+<body>
+price2015 =parseFloat(price2015);
+
+
+<h1>Please Enter Your Details For Our Dating Website! </h1>
+<fieldset>
+    <legend>Your Face </legend>
+    <label for="yourFile">Your Image:</label>
+    <input type="file" id="yourFile" required/><br>
+
+    <label for="preview">Image preview:</label>
+    <img id="preview">
+
+</fieldset>
+
+<fieldset>
+     <legend>Your General Details </legend>
+
+    <label for="text">Name:</label>
+    <input type="text"  id="text" name="text" required>
+      <br>
+
+    <label for="radio">Gender:</label>
+    <input type="radio" id="radio" name="male">Male</label>
+
+    <input type="radio" id="radio2" name="radio" required>
+    <label  class=range type="radio2">female</label>
+    <br>
+
+    <label for="number">Age:</label>
+    <input type="number" id="number" name="number" required>
+    <br>
+
+    <label for="date">Date Of Birth:</label>
+    <input type="date" id="date" name="date">
+    <br>
+    <!--<form action="action_page.php">-->
+    <label for="favorite color">Favorite color:</label>
+    <input  type="color" id="favorite color" name="favorite color" value="#ff0000">
+<!--        <input type="submit">
+    </form>-->
+
+
+  <br>  <label for="country">Which Country:</label>
+    <select id="country">
+        <option>United States</option>
+        <option>Canada</option>
+        <option>Mexico</option>
+        <option>Brazil</option>
+        <option>Argentina</option>
+        <option>No selection</option>
+        </select>
+
+
+</fieldset>
+
+<fieldset>
+    <legend>Your Indicators</legend>
+
+       <label for="short" >Height: <span class="first">&nbsp;short&nbsp;</span></label>
+       <input type="range" id="short" min="0" max="100">
+       <label   class=range id="tall"><span class="second">&nbsp;Tall&nbsp;</span></label>
+       <br>
+      <label for="Poor">Salary: <span class="first">&nbsp;Poor&nbsp;</span></label>
+       <input type="range"   id="Poor"   min="0" max="100">
+        <label  class=range id="rich"><span class="second">&nbsp;Rich&nbsp;</span></label>
+</fieldset>
+<fieldset>
+    <legend>Your Contact Information</legend>
+
+   <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+
+    <label for="mobile">Mobile:</label>
+    <input type="tel" id="mobile" name="mobile">
+    <br>
+
+    <label for="address">Address:</label>
+    <textarea id="address"></textarea>
+    <br>
+
+    <label class="radio" for="method">Method to contact you:</label>
+    <input type="checkbox" id="method">
+    <label class="radio" >Email</label>
+
+
+    <input type="checkbox" id="whats app">
+    <label class="radio" for="whats app">whatsapp</label>
+
+   <input type="checkbox" id="in-app">
+   <label class="radio"  for="in-app">in-app chat</label>
+
+<style>
+
+
+
+
+
+
+</style>
+
+    <script type="text/javascript">
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('#blah')
+                            .attr('src', e.target.result)
+                            .width(150)
+                            .height(200);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('#blah')
+                            .attr('src', e.target.result)
+                            .width(150)
+                            .height(200);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+
+
+</fieldset>
+     <input type="submit">
+
